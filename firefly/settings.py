@@ -23,7 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ute5lch_5%u49^lh&1p3ho3t-gg6=8%oevd_-c9#m_*x+b(mc8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
+FORCE_SCRIPT_NAME = '/firefly/'
 
 ALLOWED_HOSTS = [
     'eugenia'
