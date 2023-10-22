@@ -1,0 +1,10 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: firefly-django-app
+  labels:
+    app: firefly-django
+spec:
+  containers:
+    - image: fsbano/firefly-django
+      name: firefly-django-app
