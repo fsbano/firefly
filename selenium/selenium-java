@@ -1,0 +1,4 @@
+#!/bin/sh
+
+javac -cp "$(printf %s: selenium-java-4.14.1/*.jar selenium-java-4.14.1/lib/*.jar)" Main.java
+java -cp "$(printf %s: selenium-java-4.14.1/*.jar selenium-java-4.14.1/lib/*.jar)" Main
